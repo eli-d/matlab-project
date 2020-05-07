@@ -1,0 +1,12 @@
+Rich Man Poor Man is a card game where the aim is to be the first player to play all cards in their hand. It is played in this instance with between 3 and 8 players. The game uses card values (lowest to highest) from 3-2, hence 3 is the lowest card, followed by 4,5...10,J,Q,K,A,2. Card suites are irrelevant in this game. The game is played in rounds, which are then divided into 'tricks'. 
+How to play a trick:
+Play begins by a player playing some number of the same card, for example 3 fours, 1 ace, or 2 sevens. Once played, a card is discarded for the rest of the round. Between 1 and 4 of the same card can be played at a time. The next player can then choose to either skip, or play the same quantity of the same or higher value card. An example play is as follows:
+Player 1 - 2 4s
+Player 2 - 2 6s
+Player 3 - 2 Ks
+The trick ends once a winning card is played. This means that no other player can or chooses to continue play (i.e. every player has skipped). If a player chooses to skip but the round continues, they are allowed to play again if it comes back to them.
+How to play a round:
+A round involves continually playing tricks until all but one player have finished (emptied their hands). At the start of each round, the deck is divided equally among all players. The first trick begins with a randomly selected player, and each subsequent trick is started by the winner of the previous trick. Players are ranked in each round by how fast they emptied their hands - the winner is the player to finish first. Once all players are finished, they are then assigned roles based on their rank. High-ranking players will be 'rich', and low-ranking players 'poor', and with larger numbers of players the very top and bottom players will become 'very rich' and 'very poor' respectively. This means that between rounds, once the deck is dealt, a rich and poor player will exchange a card. The rich player receives the poor player's best card, and the poor player receives the rich player's worst card. This is the same between very rich and very poor players, except two cards are exchanged instead of just one. Any middle-ranking players are simply assigned the rank of 'commoner' and will have no card swaps occur.
+Game End:
+The game can end after either a number of rounds specified at game start, or by user input after each round. The winner is the player with the most points - a player earns 1 point by being rich during a round, and 2 by being very rich (No points are deducted for poor players).
+
